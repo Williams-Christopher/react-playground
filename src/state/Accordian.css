@@ -1,0 +1,22 @@
+.Accordian-list {
+    list-style: none;
+    font-family: sans-serif;
+    border: 1px solid black;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.Accordian-list-item {
+    margin: 10px;
+}
+
+.Accordian-list-button {
+    border: 1px solid black;
+    min-width: 5%;
+    padding: 5px;
+}
+
+.Accordian-list-item-content {
+    background: whitesmoke;
+    font-style: italic;
+}

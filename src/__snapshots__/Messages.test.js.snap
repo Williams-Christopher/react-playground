@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Component Renders the UI as expected when there are no unread messages 1`] = `
+<div
+  className="messages"
+>
+  Messages
+</div>
+`;
+
+exports[`Messages Component renders the UI as expected 1`] = `
+<div
+  className="messages"
+>
+  Messages
+  <div
+    className="unread_count badge"
+  >
+    4
+  </div>
+</div>
+`;

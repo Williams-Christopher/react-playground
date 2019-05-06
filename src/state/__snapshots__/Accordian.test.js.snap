@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component Tests Closes a previously open section when a different section button is clicked 1`] = `
+<ul
+  className="Accordian-list"
+>
+  <li
+    className="Accordian-list-item"
+    key="0"
+  >
+    <button
+      className="Accordian-list-button"
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="1"
+  >
+    <button
+      className="Accordian-list-button"
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p
+      className="Accordian-list-item-content"
+    >
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="2"
+  >
+    <button
+      className="Accordian-list-button"
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component Tests Initially renders with all sections closed 1`] = `
+<ul
+  className="Accordian-list"
+>
+  <li
+    className="Accordian-list-item"
+    key="0"
+  >
+    <button
+      className="Accordian-list-button"
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="1"
+  >
+    <button
+      className="Accordian-list-button"
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="2"
+  >
+    <button
+      className="Accordian-list-button"
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component Tests Renders only the section whose button was clicked 1`] = `
+<ul
+  className="Accordian-list"
+>
+  <li
+    className="Accordian-list-item"
+    key="0"
+  >
+    <button
+      className="Accordian-list-button"
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p
+      className="Accordian-list-item-content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="1"
+  >
+    <button
+      className="Accordian-list-button"
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Accordian-list-item"
+    key="2"
+  >
+    <button
+      className="Accordian-list-button"
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
